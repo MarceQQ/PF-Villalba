@@ -96,3 +96,11 @@ footer {
     height: 100%;
 }
 
+@media screen and (max-width: 573px) {
+    .merch {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+}

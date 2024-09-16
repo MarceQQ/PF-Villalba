@@ -1,0 +1,78 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Ubuntu;
+}
+
+body {
+    background-color: #f0f0f0; /* Cambia esto al color de fondo deseado */
+}
+
+.logo {
+    width: 53px;
+}
+
+.video-container {
+    position: relative;
+    width: 100%;
+    height: 70vh; /* Ajusta la altura según sea necesario */
+    overflow: hidden;
+    margin-top: 56px; /* Compensa la altura de la navbar */
+}
+
+.video-bg {
+    position: absolute; /* Asegura que el video esté posicionado dentro del contenedor */
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Asegura que el video cubra todo el contenedor */
+    object-position: center; /* Centra el contenido del video */
+}
+/* Estilo para el botón flotante */
+.btn-floating {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+/* Estilo opcional para el modal */
+.modal-content {
+    background-color: #333;
+    color: #fff;
+}
+
+#quoteContainer {
+    margin-top: 50px;
+}
+
+.quote {
+    font-style: italic;
+}
+
+.signature {
+    font-size: 25px;
+}
+
+#paragraph {
+    font-size: 20px;
+    text-align: left;
+}
+footer {
+    margin-top: auto;
+}
+#footer {
+    margin: 0;
+    display: flex; 
+    justify-content: space-between; 
+    align-items: center; 
+    width: 100%;
+}

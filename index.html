@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kamada</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/styles.css">
+</head>
+<body class="text-bg-dark">
+    <nav class="navbar navbar-expand-sm fixed-top bg-body-tertiary" data-bs-theme="dark">
+        <div class="container-fluid">
+            <span class="navbar-brand mb-0 h1"><img class="logo" src="./assets/brandLogo.png" alt="brand logo">KAMADA</span>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse " id="navbarNavAltMarkup">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Integrantes</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Shows</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Merchandising</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div class="video-container">
+        <video class="video-bg" autoplay muted loop src="./assets/welcomeVideo.mp4"></video>
+    </div>
+    
+    <button type="button" class="btn btn-primary btn-floating" data-bs-toggle="modal" data-bs-target="#musicModal">
+      🎵
+    </button>
+    <div class="modal fade" id="musicModal" tabindex="-1" aria-labelledby="musicModalLabel" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered">
+          <div class="modal-content">
+              <div class="modal-header">
+                  <h5 class="modal-title" id="musicModalLabel">Escucha Nuestro Álbum</h5>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+              </div>
+              <div class="modal-body">
+                  <audio controls class="w-100" autoplay>
+                      <source src="./assets/mixKamada1.mp3" type="audio/mp3">
+                      Tu navegador no soporta el elemento de audio.
+                  </audio>
+              </div>
+          </div>
+      </div>
+    </div>
+
+    <div class="container text-center" id="quoteContainer">
+      <div class="row">
+        <div class="col p-3">
+          <blockquote class="quote"><h2>"Durante su carrera se mantuvieron lejos de las cámaras, sin mostrar su cara, sin que los seduzca la idea de vender su imagen. Esa es una parte de su mística. Kamada es un bicho raro que avanza por un camino alternativo y que, en silencio y a paso firme, invade nuestro ecosistema, igual que una plaga."</h2>
+          <div class="signature">-Plaza Tomada.</div></blockquote>
+        </div>
+        <div class="col">
+          <img class="p-3" src="./assets/kamadaHomePic.png" alt="kamada imagen" width="100%">
+        </div>
+        <div class="row" id="paragraph">
+          <p>Saje y Kelo trabajan en conjunto hace más de 13 años, y hoy, que sus nombres son objeto de un respeto con tintes místicos y prácticamente unánime en la escena del hip hop, su sinergia sigue siendo particular y poderosa. Antes de sonar, ya te sonaban. Y es que lograron sostener con determinación una obra que se declara a contrapelo del establishment y se mantiene ahí: donde no entran la comercialización de los looks y los rostros, ni los números exorbitantes de reproducciones, ni el cancherismo de las redes sociales, ni la posibilidad de 
+          <p>Con la paciencia de quien sabe que o te apuran o no te dan lugar, y la confianza de quien se ofrece genuino, los artistas fueron regando su discografía con proyectos individuales -aunque siempre decididamente cobijados por la identidad de Kamada- durante algún tiempo en el que les fue complejo hacer convivir sus respectivas rutinas con el sumergirse juntos en la búsqueda artística (Sajelodonte, AURA, y OSNIS de Saje y L.E.A.L., de Kelo). Ahora, ofrecen PLAGAS como una trinchera del core Kamada, trenzado con el color de Veeyam y la posibilidad de nuevos horizontes.</p>
+          <p>"Místico, ca: que incluye misterio o razón oculta; que se dedica a la vida espiritual", define la Real Academia Española. La palabra aparece demasiado rápido en el diálogo de Datta con los dos artistas. Y es que su obra trae al frente con fuerza la esfera de lo místico. Las primeras barras de Enjambre, el tema que abre PLAGAS, arrojan las palabras claves: enjambre, texto y fe. Vale decir, comunidad, conceptos, introspección.</p>
+          <p>Para entender lo que los rodea -y la relevancia de que hayan sacado un álbum entero en colaboración con uno de lo productores del momento-, hace falta situarse en el 2013. "La cultura urbana cuando arrancamos era otra cosa. A nosotros nos descansaban por ser raperos", comentó Saje. Y si ser rapero era una cosa rara allá por el 2009, cuando empezaron a escribir temas, habrá que imaginar lo que era escupir letras con contenido filosófico dentro de estructuras métricas complejas.</p>
+          <p>El grupo, que entonces era un trío cuya tercera pata era el rapero Last, grabó todo Kamada Tres Cuatro en un homestudio, en su gran mayoría sobre instrumentales de uso público, con algunos producidos por Nune. Escribieron del 2009 al 2012, y grabaron en el 2013. Kelo recuerda que en el link de descarga, habían incluido archivos de nota con las letras de los temas. Saje tae a colación que, cuando empezó a meterse en el mundo del rap, no tenía internet, y la música le llegaba a través de cassettes que compilaba un compañero del colegio, o recomendaciones de pibes que se cruzaba en las plazas. Escuchaba en loop un puñado de temas de raperos españoles y algún rosarino, en mixtapes caseros que había copiado él mismo, de cassette a cassette, en la hora libre. Mística.</p>
+          <p>Hoy por hoy, nada de eso es necesario para adentrarse en el mundo del hiphop. Plataformas como YouTube o Spotify son vastos océanos de recomendaciones, y las herramientas de producción se diversificaron y democratizaron a la par. Para producir algo que suene y que suene relativamente bien, no hace falta traficar información en un circuito específico, ni encontrar cómplices y estar seguro de que se comparte una ética del trabajo. Las posibilidades son infinitas, y ahora todos tienen mil shows, bricks, hoes, deals con Billboard.</p>
+          <p>La producción y el consumo se expandieron y aceleraron, y el rap se volvió el lenguaje predilecto de los jóvenes a la hora de hacer música. También es moneda corriente el estar crónicamente online, en ese universo digital en el que el tiempo y el espacio no existen. Eso desarticula un poco algunos puentes con la proximidad humana y la huerta espiritual que Kamada ensalza una y otra vez no sólo en sus letras, sino en la forma en que llevan adelante el proyecto. Kelo y Saje observan que debe ser mucho más difícil para el piberío lanzarse a hacer música ahora, que los estándares están corridos: cuando ellos formaron el grupo, soñaban ser como algún grupo under que admiraban. Hoy, todos quieren llenar un Movistar Arena.</p>
+          <p>En un país en el que el rap se volvió de consumo masivo gracias a la explosión de El Quinto Escalón, a partir del 2012, el arte de rimar sobre el beat quedó muy amarrado a la idea de competir con otros y chapear las fortalezas propias. Los Kamada nunca fueron deportistas de ese circuito. Forasteros para los freestylers, forasteros para los músicos, forasteros para los intelectuales, pusieron sobre la mesa una combinación inaudita entre una seria indagación interior –exhibición de costras-, y una pulida técnica, una métrica sin concesiones –simetría en sonidos nivel Messi-. Por supuesto, esa propuesta supone y necesita otros tiempos de producción, que nada tienen que ver con el. Para tener un mundo interior y explorarlo, hay que vivir. Y para vivir, hay que dejarse vivir.</p>
+        </div>
+      </div>
+    </div>
+    <footer class="bg-dark text-white py-3">
+      <div class="container d-flex justify-content-between" id="footer">
+          <span>Fanpage dedicada a Kamada</span>
+          <a href="https://www.instagram.com/kamada" class="text-white" target="_blank">Instagram</a>
+      </div>
+  </footer>
+  
+  
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</body>
+</html>

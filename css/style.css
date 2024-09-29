@@ -59,6 +59,7 @@ body #paragraph {
   font-weight: 300;
   text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
   text-align: left;
+  margin: 20px;
 }
 body footer {
   margin-top: auto;
@@ -72,7 +73,7 @@ body footer #footer {
   align-items: flex-end;
   width: 100%;
 }
-body footer .brandInsta {
+.brandInsta {
   width: 40px;
 }
 body .members, body .shirt {
@@ -85,6 +86,9 @@ body .members, body .shirt {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+  }
+  .player {
+    width: 10px;
   }
 }
 
